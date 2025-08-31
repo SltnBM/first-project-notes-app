@@ -2,6 +2,9 @@
 This repository contains a **dummy notes application** built using **JavaScript Web Components**.
 The project demonstrates rendering notes, form validation, and basic UI interactions using Vanilla JS without any backend storage.
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square)
+![Web Components](https://img.shields.io/badge/Web%20Components-Custom%20Elements-blue?style=flat-square)
+
 ## Technologies Used
 - JavaScript (ES6)
 - HTML5
