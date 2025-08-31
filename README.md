@@ -30,3 +30,6 @@ notes-app/
 ├── sample-notes.js            
 └── style.css
 ```
+
+## Certificate
+Successfully completed with a ⭐ 5/5 stars rating on Dicoding. [View Certificate](https://www.dicoding.com/certificates/6RPNG6WM9Z2M)
