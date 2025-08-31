@@ -1,4 +1,4 @@
-# 🚀 Notes App - JavaScript Web Components
+# 📝 Notes App - JavaScript Web Components
 This repository contains a **dummy notes application** built using **JavaScript Web Components**.
 The project demonstrates rendering notes, form validation, and basic UI interactions using Vanilla JS without any backend storage.
 
