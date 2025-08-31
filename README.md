@@ -36,7 +36,7 @@ The project demonstrates rendering notes, form validation, and basic UI interact
 ```
 
 ## 📜 Certificate
-🎖️ [View Certificate](https://www.dicoding.com/certificates/6RPNG6WM9Z2M)
+Successfully completed the "Belajar Fundamental Front-End Web Development" course on Dicoding. 🎖️ [View Certificate](https://www.dicoding.com/certificates/6RPNG6WM9Z2M)
 
 ## 🤝 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
