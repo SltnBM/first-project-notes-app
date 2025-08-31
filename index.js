@@ -1,20 +1,27 @@
 import './app-header.js';
 import './note-form.js';
 import './note-card.js';
+
 import { notesData } from './sample-notes.js';
 
-const notesList = document.getElementById("notesList");
+const notesListElement = document.querySelector('#notesList');
 
-function formatDate(iso) {
-  return new Date(iso).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+function createNoteItemElement({ id, title, body, createdAt, archived }) {
+  return `
+    <note-card 
+      note-id="${id}" 
+      title="${title}" 
+      body="${body}" 
+      date="${new Date(createdAt).toLocaleDateString("id-ID", { 
+        year: "numeric", 
+        month: "long", 
+        day: "numeric" 
+      })}" 
+      archived="${archived}">
+    </note-card>
+  `;
 }
 
-notesData.forEach(note => {
-  const el = document.createElement("note-card");
-  el.setAttribute("note-id", note.id);
-  el.setAttribute("title", note.title);
-  el.setAttribute("body", note.body);
-  el.setAttribute("date", formatDate(note.createdAt));
-  el.setAttribute("archived", note.archived);
-  notesList.appendChild(el);
-});
+const listOfNoteItem = notesData.map((note) => createNoteItemElement(note));
+
+notesListElement.innerHTML = listOfNoteItem.join('');
