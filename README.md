@@ -23,19 +23,19 @@ The project demonstrates rendering notes, form validation, and basic UI interact
 ## 📁 Project Structure
 ```plaintext
 📂 notes-app/
-├── app-header.js     
-├── form-custom-validation.js     
-├── index.html           
-├── index.js    
-├── note-card.js   
-├── note-form.js   
-├── README.md   
-├── sample-notes.js            
-└── style.css
+├── app-header.js               # Custom element for the app header UI
+├── form-custom-validation.js   # Real-time form validation logic
+├── index.html                  # Main HTML page of the app
+├── index.js                    # Entry point, renders notes & initializes app
+├── note-card.js                # Custom element for note cards
+├── note-form.js                # Custom element for the note input form
+├── README.md                   # Project documentation
+├── sample-notes.js             # Dummy/sample notes data
+└── style.css                   # App styling
+
 ```
 
 ## 📜 Certificate
-Successfully completed with a ⭐ 5/5 stars rating on Dicoding.
 🎖️ [View Certificate](https://www.dicoding.com/certificates/6RPNG6WM9Z2M)
 
 ## 🤝 Connect with Me
